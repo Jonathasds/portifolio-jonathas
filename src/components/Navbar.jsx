@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* menu Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaTimes /> : <FaBars /> }
       </div>
       {/* mobile menu */}
 
