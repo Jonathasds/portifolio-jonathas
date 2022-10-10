@@ -19,9 +19,9 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-500">
           I'm a web developer{" "}
         </h2>
-        <p className="text-white text-2xl py-4 mx-w-[700px]">
+        <p className="text-gray-500 text-md py-4 mx-w-[700px]">
           I'm a front-end web developer, looking for an internship.<br/> Web
-          Applications: <span className="text-green-500 m-1 text-2xl uppercase" >
+          Applications: <span className="text-green-500 m-1 text-lg uppercase" >
         <Typed
           
           strings={[
@@ -42,7 +42,7 @@ const Home = () => {
         </span>
         </p>
         <div className="m-5">
-          <button className="hover:scale-110 ease-in duration-200 hover:text-white  border-2  text-green-600 border-green-500 px-6 py-3 my-2 flex items-center  ">
+          <button className="hover:scale-110 ease-in duration-200 hover:text-white  border-2  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
             {" "}
             <a target="_blank" href={CV} dowload>
               {" "}
