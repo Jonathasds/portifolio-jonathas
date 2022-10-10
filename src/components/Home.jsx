@@ -4,6 +4,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import CV from "../assets/cv.pdf";
 import Logo from "../assets/logo.png";
+import Typed from "react-typed";
 
 const Home = () => {
   return (
@@ -18,9 +19,27 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-500">
           I'm a web developer{" "}
         </h2>
-        <p className="text-gray-500 py-4 mx-w-[700px]">
-          I'm a Front-tend web developer, looking for an internship. Applying
-          responsive, React.Js
+        <p className="text-white text-2xl py-4 mx-w-[700px]">
+          I'm a front-end web developer, looking for an internship.<br/> Web
+          Applications: <span className="text-green-500 m-1 text-2xl uppercase" >
+        <Typed
+          
+          strings={[
+            "HTML.",
+            "CSS.",
+            "JavaScript.",
+            "React.JS.",
+            "Node.js.",
+            "Firebase.",
+            "MongoDB.",
+            "Bootstrap.",
+            "TailWind.",
+          ]}
+          typeSpeed={120}
+          backSpeed={140}
+          loop
+        />
+        </span>
         </p>
         <div className="m-5">
           <button className="hover:scale-110 ease-in duration-200 hover:text-white  border-2  text-green-600 border-green-500 px-6 py-3 my-2 flex items-center  ">

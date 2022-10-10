@@ -13,11 +13,12 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
-    <Skills/>
     <Project/>
+    <Skills/>
     <Contact/>
    </div>
   )
 }
 
 export default App;
+    

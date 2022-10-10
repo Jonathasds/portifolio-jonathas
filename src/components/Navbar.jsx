@@ -29,11 +29,11 @@ const Navbar = () => {
         </li>
         
         <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
-        <Link  to="skills" smooth={true} duration={500}>Skills</Link>
+        <Link  to="project" smooth={true} duration={500}>Project</Link>
         </li>
         
         <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
-        <Link  to="project" smooth={true} duration={500}>Project</Link>
+        <Link  to="skills" smooth={true} duration={500}>Skills</Link>
         </li>
        
         <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
@@ -61,10 +61,10 @@ const Navbar = () => {
         <Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link>
         </li>
         <li className="z-10 py-6 text-4xl hover:text-green-500 hover:scale-110 ease-i duration-400">
-        <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link>
+        <Link onClick={handleClick} to="project" smooth={true} duration={500}>Project</Link>
         </li>
         <li className="z-10 py-6 text-4xl hover:text-green-500 hover:scale-110 ease-i duration-400">
-        <Link onClick={handleClick} to="project" smooth={true} duration={500}>Project</Link>
+        <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link>
         </li>
         <li className="z-10 py-6 text-4xl hover:text-green-500 hover:scale-110 ease-i duration-400">
         <Link onClick={handleClick} to="contact" smooth={true} duration={500}> Contact</Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed  flex-col top-[35%] left-0">
         <ul className="">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500 ">
             <a
