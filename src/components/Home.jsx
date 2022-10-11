@@ -46,7 +46,7 @@ const Home = () => {
             {" "}
             <a target="_blank" href={CV} dowload>
               {" "}
-              Dawload CV{" "}
+              Download CV{" "}
             </a>
             <HiArrowNarrowRight className="ml-3" />
           </button>

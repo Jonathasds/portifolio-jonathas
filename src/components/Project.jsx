@@ -13,7 +13,7 @@ const Project = () => {
       className="w-full shadow-lg md:h-screen text-gray-300 bg-gradient-to-t to-[#091730] from-[#030c1b]"
     >
       <div className="ma-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-green-600">
             Project
           </p>
@@ -22,12 +22,12 @@ const Project = () => {
 
         {/* Container */}
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-5 md:m-20 m-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-5">
 
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${ToDo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover  */}
                 <div className="opacity-0  group-hover:opacity-100">
