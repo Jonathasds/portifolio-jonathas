@@ -43,10 +43,10 @@ const Home = () => {
         </p>
         <div className="m-5">
           <button className="hover:scale-110 ease-in duration-200 hover:text-white  border-2  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
-            {" "}
+            
             <a target="_blank" href={CV} dowload>
-              {" "}
-              Download CV{" "}
+              
+              Download CV
             </a>
             <HiArrowNarrowRight className="ml-3" />
           </button>

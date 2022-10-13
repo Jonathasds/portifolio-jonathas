@@ -1,5 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+
+
+
+
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
@@ -8,12 +13,15 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(true);
   const handleClick = () => setNav(!nav);
+  
+
 
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f7c]  text-gray-300">
       <div>
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
+      
 
       {/* menu */}
 
@@ -40,6 +48,8 @@ const Navbar = () => {
         <Link  to="contact" smooth={true} duration={800}> Contact</Link>
         </li>
       </ul>
+
+   
 
       {/* menu Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
@@ -76,8 +86,9 @@ const Navbar = () => {
         <ul className="">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500 ">
             <a
+            target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/j%C3%B4nathas-delgado-2a6b51102/"
             >
               {" "}
               Linkedin <FaLinkedin size={30} />
@@ -85,8 +96,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#333] ">
             <a
+            target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Jonathasds"
             >
               {" "}
               Github <FaGithub size={30} />
@@ -94,6 +106,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-red-600 ">
             <a
+            target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
@@ -103,6 +116,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-500">
             <a
+             target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >

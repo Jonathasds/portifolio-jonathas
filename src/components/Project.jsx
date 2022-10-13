@@ -4,6 +4,10 @@ import ToDo from "../assets/todolist.jpg";
 import Moeda from "../assets/conversormoeda.jpg";
 import Calculadora from "../assets/calculadorajs.jpg";
 import Instagram from "../assets/cloneinsta.jpg";
+import CalculadoraReact from "../assets/calculadoraReact.png";
+import PokeCard from "../assets/card2.jpg"
+
+import Portfolio from "../assets/portfolio.png";
 
 
 const Project = () => {
@@ -30,7 +34,81 @@ const Project = () => {
             className="shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover  */}
-                <div className="opacity-0  group-hover:opacity-100">
+                <div className="opacity-0 text-center group-hover:opacity-100">
+                    <span className="text-1xl  font-bold text-white tracking-wider">
+                         HTML5, CSS3, JS e Storange Application
+                     </span>
+                    <div className="pt-8 text-center">
+                        <a href="/">
+                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Demo
+                             </button>
+                         </a>
+                         <a href="/">
+                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+          </div>
+          
+
+          <div
+            style={{ backgroundImage: `url(${PokeCard})` }}
+            className="shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover  */}
+                <div className="opacity-0 text-center  group-hover:opacity-100">
+                    <span className="text-1xl font-bold text-white tracking-wider">
+                         HTML5, CSS3, JS e Storange Application
+                     </span>
+                    <div className="pt-8 text-center">
+                        <a href="/">
+                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Demo
+                             </button>
+                         </a>
+                         <a href="/">
+                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+          </div>
+          
+
+          <div
+            style={{ backgroundImage: `url(${CalculadoraReact})` }}
+            className="shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover  */}
+                <div className="opacity-0 text-center group-hover:opacity-100">
+                    <span className="text-1xl font-bold text-white tracking-wider">
+                         HTML5, CSS3, JS e Storange Application
+                     </span>
+                    <div className="pt-8 text-center">
+                        <a href="/">
+                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Demo
+                             </button>
+                         </a>
+                         <a href="/">
+                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                     Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Portfolio})` }}
+            className="shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover  */}
+                <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
                          HTML5, CSS3, JS e Storange Application
                      </span>
@@ -53,7 +131,7 @@ const Project = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover  */}
-                <div className="opacity-0 group-hover:opacity-100">
+                <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
                          HTML5, CSS3, JS e Storange Application
                      </span>
@@ -76,7 +154,7 @@ const Project = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div2"
           >
             {/* Hover  */}
-                <div className="opacity-0 group-hover:opacity-100">
+                <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
                          HTML5, CSS3, JS e Storange Application
                      </span>
@@ -99,7 +177,7 @@ const Project = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div2"
           >
             {/* Hover  */}
-                <div className="opacity-0 group-hover:opacity-100">
+                <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
                          HTML5, CSS3, JS e Storange Application
                      </span>
