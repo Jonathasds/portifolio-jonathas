@@ -10,7 +10,9 @@ import PokeCard from "../assets/card2.jpg"
 import Portfolio from "../assets/portfolio.png";
 
 
+
 const Project = () => {
+ 
   return (
     <div
       name="project"
@@ -18,7 +20,7 @@ const Project = () => {
     >
       <div className="ma-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-green-600">
+          <p className="text-4xl font-bold inline border-b-[1px]  border-t-[1px] text-gray-300 border-green-600">
             Project
           </p>
           <p className="py-6">// Check some of my recent project.</p>
@@ -36,19 +38,19 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl  font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                         To Do list <br/> HTML, CSS, JS
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                        
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a  href="/">Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                        
+                         
+                             <button className="text-center  hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Code</a>
                             </button>
-                        </a>
+                        
                     </div>
                 </div>
           </div>
@@ -61,19 +63,19 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center  group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                         Cards<br/> HTML, CSS, JS, VANILLA JS
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                       
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                    <a href="/"> Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                      
+                         
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                    <a href="/">  Code</a>
                             </button>
-                        </a>
+                        
                     </div>
                 </div>
           </div>
@@ -86,19 +88,19 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                    Calculadora React<br/> HTML, CSS, JS, HOOKS
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                        
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                      
+                        
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                    <a href="/"> Code </a>
                             </button>
-                        </a>
+                       
                     </div>
                 </div>
           </div>
@@ -113,16 +115,16 @@ const Project = () => {
                          HTML5, CSS3, JS e Storange Application
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                        
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/"> Demo</a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                       
+                        
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                    <a href="/"> Code  </a>
                             </button>
-                        </a>
+                       
                     </div>
                 </div>
           </div>
@@ -136,16 +138,16 @@ const Project = () => {
                          HTML5, CSS3, JS e Storange Application
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                       
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                      
+                         
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Code </a>
                             </button>
-                        </a>
+                       
                     </div>
                 </div>
           </div>
@@ -159,16 +161,16 @@ const Project = () => {
                          HTML5, CSS3, JS e Storange Application
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                        
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                       
+                         
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/"> Code</a>
                             </button>
-                        </a>
+                        
                     </div>
                 </div>
           </div>
@@ -182,16 +184,16 @@ const Project = () => {
                          HTML5, CSS3, JS e Storange Application
                      </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Demo
+                        
+                            <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                     <a href="/">Demo </a>
                              </button>
-                         </a>
-                         <a href="/">
-                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                     Code
+                        
+                       
+                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
+                                    <a href="/"> Code </a>
                             </button>
-                        </a>
+                        
                     </div>
                 </div>
           </div>

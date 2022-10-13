@@ -12,9 +12,9 @@ const Footer = () => {
        
         <div className=" lg:hidden flex justify-center gap-24 ">
             
-            <a target="_blank" className=" hover:scale-125 flex justify-center items-center  bg-[#333]" href="https://github.com/Jonathasds"><FaGithub size={20} /></a>
-            <a target="_blank" className=" hover:scale-125 flex justify-center items-center bg-blue-500" href="https://www.linkedin.com/in/j%C3%B4nathas-delgado-2a6b51102/"><FaLinkedin  size={20} /></a>
-            <a target="_blank" className=" hover:scale-125 flex justify-center items-center bg-green-400" href="https://wa.me/5522981818181?text=Obrigado+por+entrar+em+contato%2C+deixe+sua+mensagem%2C+assim+que+poss%C3%ADvel+ser%C3%A1+respondido%21%21"><SiWhatsapp  size={20} /></a>
+            <a target="_blank" className=" duration-200 hover:scale-125 flex justify-center items-center h-7 w-7  bg-[#333]" href="https://github.com/Jonathasds"><FaGithub size={20} /></a>
+            <a target="_blank" className=" duration-200 hover:scale-125 flex justify-center items-center h-7 w-7 bg-blue-500" href="https://www.linkedin.com/in/j%C3%B4nathas-delgado-2a6b51102/"><FaLinkedin  size={20} /></a>
+            <a target="_blank" className=" duration-200 hover:scale-125 flex justify-center items-center h-7 w-7 bg-green-600" href="https://wa.me/5522981818181?text=Obrigado+por+entrar+em+contato%2C+deixe+sua+mensagem%2C+assim+que+poss%C3%ADvel+ser%C3%A1+respondido%21%21"><SiWhatsapp  size={20} /></a>
           
         </div>
 
