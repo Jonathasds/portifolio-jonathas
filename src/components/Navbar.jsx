@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Logo from "../assets/logo.png";
-
+import './navbar.css'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -12,14 +12,14 @@ import { SiWhatsapp }  from "react-icons/si";
 
 
 
-const Navbar = () => {
+const Navbar = ({acao}) => {
   const [nav, setNav] = useState(true);
   const handleClick = () => setNav(!nav);
   
 
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#10381ddc]  text-gray-300">
+    <div className={acao ? 'ativaCor' : 'naoAtivaCor'} >
       <div>
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
@@ -27,14 +27,14 @@ const Navbar = () => {
 
       {/* menu */}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex ">
         
         <li className=" after-text-white text-green-500 hover:text-white hover:scale-110 ease-in duration-400">
           <Link  to="home" smooth={true} duration={800}>Home</Link>
         </li>   
           
         
-        <li className="hover:text-green-500 hover:scale-110 ease-i duration-400">
+        <li className="hover:text-green-500 px-4 hover:scale-110 ease-i duration-400">
         <Link  to="about" smooth={true} duration={800}>About</Link>
         </li>
         

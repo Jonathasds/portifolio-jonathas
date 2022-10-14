@@ -1,0 +1,29 @@
+.ativaCor{
+    width: 100%;
+    height:60px ;
+    position: fixed;
+    color: rgb(209, 213, 219);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkgreen; */
+}
+
+
+.naoAtivaCor{
+    width: 100%;
+    height:60px ;
+    position: fixed;
+    color: rgb(209, 213, 219);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 75, 43);
+
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import ToDo from "../assets/todolist.jpg";
@@ -43,12 +44,12 @@ const Project = () => {
                     <div className="pt-8 text-center">
                         
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a  href="/">Demo </a>
+                                     <a target="_blank" href="https://jonathasds.github.io/To-Do-List/">Demo </a>
                              </button>
                         
                          
                              <button className="text-center  hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Code</a>
+                                     <a target="_blank" href="https://github.com/Jonathasds/To-Do-List">Code</a>
                             </button>
                         
                     </div>
@@ -68,12 +69,12 @@ const Project = () => {
                     <div className="pt-8 text-center">
                        
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                    <a href="/"> Demo </a>
+                                    <a target="_blank" href="https://jonathasds.github.io/cards-pokemon/"> Demo </a>
                              </button>
                       
                          
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                    <a href="/">  Code</a>
+                                    <a target="_blank" href="https://github.com/Jonathasds/cards-pokemon">  Code</a>
                             </button>
                         
                     </div>
@@ -88,17 +89,17 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                    Calculadora React<br/> HTML, CSS, JS, HOOKS
+                    Calculadora React.js<br/> HTML, CSS, js, HOOKS.
                      </span>
                     <div className="pt-8 text-center">
                         
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Demo </a>
+                                     <a target="_blank" href="https://calculadora-react-gilt.vercel.app/">Demo </a>
                              </button>
                       
                         
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                    <a href="/"> Code </a>
+                                    <a target="_blank" href="https://github.com/Jonathasds/Calculadora-React"> Code </a>
                             </button>
                        
                     </div>
@@ -112,17 +113,17 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                    Portfolio React.js<br/> HTML, CSS, JS, HOOKS, TAILWIND, React scroll, React Typed.
                      </span>
                     <div className="pt-8 text-center">
                         
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/"> Demo</a>
+                                     <a target="_blank" href="https://portifolio-jonathas.vercel.app/"> Demo</a>
                              </button>
                        
                         
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                    <a href="/"> Code  </a>
+                                    <a target="_blank" href="https://github.com/Jonathasds/portifolio-jonathas"> Code  </a>
                             </button>
                        
                     </div>
@@ -135,19 +136,19 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                   Conversor de Moeda<br/> HTML, CSS, JS.
                      </span>
                     <div className="pt-8 text-center">
                        
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Demo </a>
+                                     <a target="_blank" href="https://github.com/Jonathasds/conversor-de-moeda">Demo </a>
                              </button>
                       
                          
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Code </a>
+                                     <a target="_blank" href="https://jonathasds.github.io/conversor-de-moeda/">Code </a>
                             </button>
-                       
+                        target="_blank"
                     </div>
                 </div>
           </div>
@@ -158,17 +159,17 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                    Calculadora<br/> HTML, CSS, JS.
                      </span>
                     <div className="pt-8 text-center">
                         
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Demo </a>
+                                     <a target="_blank" href="https://jonathasds.github.io/Calcuradora/">Demo </a>
                              </button>
                        
                          
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/"> Code</a>
+                                     <a target="_blank" href="https://github.com/Jonathasds/Calcuradora"> Code</a>
                             </button>
                         
                     </div>
@@ -181,17 +182,17 @@ const Project = () => {
             {/* Hover  */}
                 <div className="opacity-0 text-center group-hover:opacity-100">
                     <span className="text-1xl font-bold text-white tracking-wider">
-                         HTML5, CSS3, JS e Storange Application
+                    Clone login Instagram <br/> HTML, CSS.
                      </span>
                     <div className="pt-8 text-center">
                         
                             <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                     <a href="/">Demo </a>
+                                     <a target="_blank" href="https://jonathasds.github.io/RecriandoInstagram/">Demo </a>
                              </button>
                         
                        
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
-                                    <a href="/"> Code </a>
+                                    <a target="_blank" href="https://github.com/Jonathasds/RecriandoInstagram"> Code </a>
                             </button>
                         
                     </div>
