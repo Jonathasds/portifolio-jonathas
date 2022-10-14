@@ -21,7 +21,7 @@ const Project = () => {
     >
       <div className="ma-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-[1px]  border-t-[1px] text-gray-300 border-green-600">
+          <p className="text-3xl animate-pulse font-bold inline border-b-[1px]  border-t-[1px] text-gray-300 border-green-600">
             Project
           </p>
           <p className="py-6">// Check some of my recent project.</p>

@@ -29,24 +29,24 @@ const Navbar = ({acao}) => {
 
       <ul className="hidden md:flex ">
         
-        <li className=" after-text-white text-green-500 hover:text-white hover:scale-110 ease-in duration-400">
+        <li className=" after-text-white text-green-500 hover:text-white hover:scale-110 hover:border-b-[1px] hover:border-green-500  ease-in duration-400">
           <Link  to="home" smooth={true} duration={800}>Home</Link>
         </li>   
           
         
-        <li className="hover:text-green-500 px-4 hover:scale-110 ease-i duration-400">
+        <li className="hover:text-green-500 px-4 hover:border-b-[1px] hover:border-green-500 hover:scale-110 ease-i duration-400">
         <Link  to="about" smooth={true} duration={800}>About</Link>
         </li>
         
-        <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
+        <li className="hover:text-green-500 hover:scale-110 hover:border-b-[1px] hover:border-green-500 ease-in duration-400">
         <Link  to="project" smooth={true} duration={800}>Project</Link>
         </li>
         
-        <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
+        <li className="hover:text-green-500 hover:scale-110 hover:border-b-[1px] hover:border-green-500 ease-in duration-400">
         <Link  to="skills" smooth={true} duration={800}>Skills</Link>
         </li>
        
-        <li className="hover:text-green-500 hover:scale-110 ease-in duration-400">
+        <li className="hover:text-green-500 hover:scale-110 hover:border-b-[1px] hover:border-green-500 ease-in duration-400">
         <Link  to="contact" smooth={true} duration={800}> Contact</Link>
         </li>
       </ul>

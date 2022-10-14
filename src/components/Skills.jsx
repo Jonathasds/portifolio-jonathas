@@ -18,48 +18,48 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col  justify-center w-full h-full'>
           <div className='text-center'>
-              <p className='text-4xl font-bold inline border-b-[1px]  border-t-[1px]  border-green-600 '>Skills</p>
+              <p className='text-3xl font-bold inline border-b-[1px]  border-t-[1px] animate-pulse  border-green-600 '>Skills</p>
               <p className='py-4 '> These are the technologies I've worked with</p>
           </div>
 
           <div className='w-full grid grid-cols-3  sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#040c16d2] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16d2] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='hidden lg:grid  my-3'>HTML</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid '>CSS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>JAVASCRIPT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>REACT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>GITHUB</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>NODE JS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>MONGO DB</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>TAILWIND</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>FIREBASE</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-600'>
                   <img className='w-20 mx-auto' src={Bootstrap} alt="HTML icon" />
                   <p className='my-3 hidden lg:grid'>BOOTSTRAP</p>
               </div>

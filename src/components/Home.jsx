@@ -42,7 +42,7 @@ const Home = () => {
         </span>
         </p>
         <div className="m-5">
-          <button className="hover:scale-110 ease-in duration-200 hover:text-white  border-[1px]  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
+          <button className="hover:scale-110 ease-in animate-pulse duration-200 hover:text-white  border-[1px]  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
             
             <a target="_blank" href={CV} dowload>
               
@@ -54,7 +54,7 @@ const Home = () => {
       </div>
 
       <div className=" hidden lg:flex lg:mr-5 flex-col  justify-center mb-20 mr-20">
-        <img className="w-[180px] p-2" src={Logo} alt="" />
+        <img className="w-[180px] animate-bounce " src={Logo} alt="" />
       </div>
     </div>
   );
