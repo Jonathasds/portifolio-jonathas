@@ -34,7 +34,7 @@ function App() {
     <Navbar acao={ativaCor}/>
     <Home/>
     <About/>
-    <Project/>
+    <Project />
     <Skills/>
     <Contact/>
     <Footer/>

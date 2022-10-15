@@ -148,7 +148,7 @@ const Project = () => {
                              <button className="text-center hover:bg-green-700 hover:text-gray-200 rounded-lg px-4 py-1 m-5 bg-white text-gray-700 font-bold text-lg">
                                      <a target="_blank" href="https://jonathasds.github.io/conversor-de-moeda/">Code </a>
                             </button>
-                        target="_blank"
+                       
                     </div>
                 </div>
           </div>
