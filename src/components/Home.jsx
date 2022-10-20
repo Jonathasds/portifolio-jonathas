@@ -8,7 +8,7 @@ import Typed from "react-typed";
 
 const Home = () => {
   return (
-    <div name="home" className="items-center flex w-full h-screen bg-[#000000]">
+    <div name="home" className="items-center flex w-full h-screen  bg-[#000000]">
       {/* conatiner */}
 
       <div className="max-w-[1000px] mx-auto px-5 flex flex-col justify-center h-full">
@@ -42,9 +42,9 @@ const Home = () => {
         </span>
         </p>
         <div className="m-5">
-          <button className="hover:scale-110 ease-in animate-pulse duration-200 hover:text-white  border-[1px]  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
+          <button className="hover:scale-110 cursor-progress ease-in animate-pulse duration-200 hover:text-white  border-[1px]  text-green-500 border-green-500 px-6 py-3 my-2 flex items-center  ">
             
-            <a target="_blank" href={CV} dowload>
+            <a className="cursor-progress" target="_blank" href={CV} dowload>
               
               Download CV
             </a>
